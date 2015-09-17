@@ -1,1 +1,2 @@
-# sematicForStep
+# semantic-ui
+Semantic UI.

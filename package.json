@@ -1,5 +1,5 @@
 {
-  "name": "semantic-ui.step",
+  "name": "semantic-ui",
   "version": "1.0.0",
   "description": "",
   "main": "semantic/dist/semantic.js",
@@ -42,12 +42,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/raoenhui/semantic-ui.step.git"
+    "url": "git+https://github.com/wlzc/semantic-ui.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/raoenhui/semantic-ui.step/issues"
+    "url": "https://github.com/wlzc/semantic-ui/issues"
   },
-  "homepage": "https://github.com/raoenhui/semantic-ui.step#readme"
+  "homepage": "https://github.com/wlzc/semantic-ui#readme"
 }
