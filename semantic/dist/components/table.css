@@ -260,7 +260,7 @@
 .ui.definition.table tr td:first-child {
   background: rgba(0, 0, 0, 0.03);
   font-weight: bold;
-  color: #2185D0;
+  color: #3397e4;
 }
 
 /* Fix 2nd Column */
@@ -472,7 +472,7 @@
 
 .ui.selectable.table tbody tr:hover {
   background: rgba(0, 0, 0, 0.05) !important;
-  color: #2185D0 !important;
+  color: #3397e4 !important;
 }
 .ui.selectable.inverted.table tbody tr:hover {
   background: rgba(255, 255, 255, 0.08) !important;
@@ -642,10 +642,10 @@
 
 /* Blue */
 .ui.blue.table {
-  border-top: 0.2em solid #2185D0;
+  border-top: 0.2em solid #3397e4;
 }
 .ui.inverted.blue.table {
-  background-color: #2185D0 !important;
+  background-color: #3397e4 !important;
   color: #FFFFFF !important;
 }
 
@@ -876,7 +876,7 @@
 /* Sorted */
 .ui.sortable.table thead th.sorted {
   background: rgba(0, 0, 0, 0.05);
-  color: #2185D0;
+  color: #3397e4;
 }
 .ui.sortable.table thead th.sorted:after {
   display: inline-block;
@@ -885,7 +885,7 @@
 /* Sorted Hover */
 .ui.sortable.table thead th.sorted:hover {
   background: rgba(0, 0, 0, 0.05);
-  color: #2185D0;
+  color: #3397e4;
 }
 
 /* Inverted */

@@ -714,7 +714,7 @@ select.ui.dropdown {
 .ui.dropdown .menu .active.item {
   background: transparent;
   font-weight: bold;
-  color: #2185D0;
+  color: #3397e4;
   box-shadow: none;
   z-index: 12;
 }
@@ -727,7 +727,7 @@ select.ui.dropdown {
 /* Menu Item Hover */
 .ui.dropdown .menu > .item:hover {
   background: rgba(0, 0, 0, 0.05);
-  color: #2185D0;
+  color: #3397e4;
   z-index: 13;
 }
 
@@ -843,7 +843,7 @@ select.ui.dropdown {
 .ui.dropdown.selected,
 .ui.dropdown .menu .selected.item {
   background: rgba(0, 0, 0, 0.03);
-  color: #2185D0;
+  color: #3397e4;
 }
 
 /*--------------------

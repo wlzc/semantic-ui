@@ -370,14 +370,14 @@
 .ui.form input[type="time"]:focus,
 .ui.form input[type="text"]:focus,
 .ui.form input[type="url"]:focus {
-  color: #2185D0;
+  color: #3397e4;
   border-color: #85B7D9;
   border-radius: 0.33333333rem;
   background: #FFFFFF;
   box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.35) inset;
 }
 .ui.form textarea:focus {
-  color: #2185D0;
+  color: #3397e4;
   border-color: #85B7D9;
   border-radius: 0.33333333rem;
   background: #FFFFFF;
