@@ -419,7 +419,7 @@ ol.ui.list ol li,
 }
 .ui.link.list .active.item,
 .ui.link.list .active.item a:not(.ui) {
-  color: #2185D0;
+  color: #3397e4;
 }
 
 /* Inverted */
@@ -473,7 +473,7 @@ ol.ui.list ol li,
 .ui.selection.list .list > .item.active,
 .ui.selection.list > .item.active {
   background: rgba(0, 0, 0, 0.05);
-  color: #2185D0;
+  color: #3397e4;
 }
 
 /* Inverted */

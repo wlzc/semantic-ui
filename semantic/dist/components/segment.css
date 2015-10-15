@@ -552,10 +552,10 @@
 
 /* Blue */
 .ui.blue.segment:not(.inverted) {
-  border-top: 2px solid #2185D0;
+  border-top: 2px solid #3397e4;
 }
 .ui.inverted.blue.segment {
-  background-color: #2185D0 !important;
+  background-color: #3397e4 !important;
   color: #FFFFFF !important;
 }
 
