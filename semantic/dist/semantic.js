@@ -1343,7 +1343,7 @@ $.fn.form = function(parameters) {
               return;
             }
             // cast to string avoiding encoding special values
-            value = (value === undefined || value === '' || value === null)
+            value = (value === undefined || value === '' || value === null || $.trim(value) === '')
               ? ''
               // : $.trim(value + '')
               : (value + '')
