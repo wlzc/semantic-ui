@@ -751,18 +751,21 @@ $.fn.dropdown = function(parameters) {
           if(queryLength === termLength) {
             return (query === term);
           }
-          search: for (var characterIndex = 0, nextCharacterIndex = 0; characterIndex < queryLength; characterIndex++) {
-            var
-              queryCharacter = query.charCodeAt(characterIndex)
-            ;
-            while(nextCharacterIndex < termLength) {
-              if(term.charCodeAt(nextCharacterIndex++) === queryCharacter) {
-                continue search;
-              }
-            }
-            return false;
-          }
-          return true;
+          
+          return term.indexOf(query) > -1;
+
+          // search: for (var characterIndex = 0, nextCharacterIndex = 0; characterIndex < queryLength; characterIndex++) {
+          //   var
+          //     queryCharacter = query.charCodeAt(characterIndex)
+          //   ;
+          //   while(nextCharacterIndex < termLength) {
+          //     if(term.charCodeAt(nextCharacterIndex++) === queryCharacter) {
+          //       continue search;
+          //     }
+          //   }
+          //   return false;
+          // }
+          // return true;
         },
 
         filterActive: function() {
